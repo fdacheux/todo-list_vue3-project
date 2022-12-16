@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import { numberLiteralTypeAnnotation } from "@babel/types";
   import { defineProps } from "vue";
 
   const props = defineProps({
