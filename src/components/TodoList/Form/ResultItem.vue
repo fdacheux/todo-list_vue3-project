@@ -11,13 +11,15 @@
       required: true,
     },
   });
+
+  const emit = defineEmits(["removeTask"]);
 </script>
 
 <template>
   <p>{{ props.task }}</p>
   <button
     class="btn btn-danger btn-delete"
-    @click="$emit('removeTask', props.id)"
+    @click="emit('removeTask', props.id)"
   >
     X
   </button>
