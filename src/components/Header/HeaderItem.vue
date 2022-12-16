@@ -2,7 +2,7 @@
 
 <template>
   <header class="header">
-    <h1 class="main-title">La To-Do Liste !</h1>
+    <h1 class="main-title">A Vue3 To-Do List !</h1>
   </header>
 </template>
 
